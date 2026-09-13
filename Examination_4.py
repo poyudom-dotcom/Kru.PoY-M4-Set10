@@ -3,6 +3,7 @@
 # Input: สีของสัญญาณไฟ ("red", "yellow", "green")
 # Output: พิมพ์ "Stop" ถ้าเป็น red | "Slow" ถ้าเป็น yellow | "Go" ถ้าเป็น green | "Invalid" กรณีอื่นๆ
 # ==========================================
-color = input()
+
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+color = input()
