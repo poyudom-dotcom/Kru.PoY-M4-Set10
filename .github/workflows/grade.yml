@@ -1,7 +1,9 @@
-name: Autograding Tests
+name: Autograding Workflow
+
 on: [push, pull_request]
+
 jobs:
-  run-tests:
+  grade:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -13,4 +15,4 @@ jobs:
           python-version: '3.x'
 
       - name: Run test runner
-        run: python test_runner.py
+        run: python .github/test_runner.py
