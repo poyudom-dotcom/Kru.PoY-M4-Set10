@@ -3,7 +3,8 @@
 # Input: บรรทัดที่ 1 ตัวเลข A, บรรทัดที่ 2 ตัวเลข B (จำนวนเต็ม)
 # Output: พิมพ์ "A is greater" หาก A > B หรือ "B is greater or equal" หาก A <= B
 # ==========================================
-a = int(input())
-b = int(input())
+
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+a = int(input())
+b = int(input())
